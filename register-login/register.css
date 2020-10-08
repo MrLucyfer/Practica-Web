@@ -36,6 +36,11 @@ form {
     margin-left: 50px;
 }
 
+.login-type:hover{
+    cursor: pointer;
+
+}
+
 .data-input {
     margin: 0 3rem;
     margin-bottom: 2rem;

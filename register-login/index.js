@@ -1,5 +1,5 @@
-const registerButton = document.querySelector('#register.type-button');
-const loginButton = document.querySelector('#login.type-button')
+const registerButton = document.getElementById('register');
+const loginButton = document.getElementById('login')
 
 function allFilled() {
     const nom = document.getElementById('nom');
@@ -29,4 +29,9 @@ document.addEventListener('keyup', () => {
         sumbitButton.disabled = true;
         sumbitButton.className = 'button-submit unclickable';
     }
+})
+
+registerButton.addEventListener('click', () => {
+    
+    location.href = 'register.html';
 })
