@@ -1,0 +1,15 @@
+.active {
+    color: #9ee493;
+    border-bottom: 2px solid #9ee493;
+}
+
+.form-input:focus {
+    outline: none;
+    border: transparent;
+    border: 2px solid #9ee493;
+}
+
+.button-ready {
+    background-color: #9ee493;
+    color: white;
+}
