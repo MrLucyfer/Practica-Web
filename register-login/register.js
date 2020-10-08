@@ -31,7 +31,6 @@ document.addEventListener('keyup', () => {
     }
 })
 
-registerButton.addEventListener('click', () => {
-    
-    location.href = 'register.html';
+loginButton.addEventListener('click', () => {
+    location.href = 'login.html';
 })

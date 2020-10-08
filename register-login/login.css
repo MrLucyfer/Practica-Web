@@ -1,15 +1,19 @@
 .active {
-    color: #9ee493;
-    border-bottom: 2px solid #9ee493;
+    color: #33a8b1;
+    border-bottom: 2px solid #33a8b1;
 }
 
 .form-input:focus {
     outline: none;
     border: transparent;
-    border: 2px solid #9ee493;
+    border: 2px solid #33a8b1;
 }
 
 .button-ready {
-    background-color: #9ee493;
+    background-color:#33a8b1;
     color: white;
+}
+
+#register.type-button:hover {
+    cursor: pointer;
 }

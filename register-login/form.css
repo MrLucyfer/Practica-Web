@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #01161e;
+}
+
+.form-class {
+    background-color: #ffffff;
+    width: 26rem;
+    margin: 9rem auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form-header {
+    padding: 20px 0;
+}
+
+form {
+    width: 100%;
+}
+
+.h2-title {
+    text-align: center;
+    margin: 20px 0;
+    vertical-align: center;
+}
+
+.login-type {
+    margin-left: 50px;
+}
+
+
+.data-input {
+    margin: 0 3rem;
+    margin-bottom: 2rem;
+}
+
+.form-input {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0;
+    border: 0px;
+    font-size: 16px;
+    background-color: #efeff1;
+    border-radius: 5px;
+    animation: border .1 ease-in;
+    padding-left: 5px;
+}
+
+.form-input:hover {
+    border: 2px solid rgb(0, 0, 0, 0.1);
+}
+
+.form-input:focus {
+    outline: none;
+    border: transparent;
+    border: 2px solid #ef2917;
+}
+
+.type-button {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    border: 0;
+    height: 25px;
+    margin-right: 15px;
+    outline: none;
+}
+
+.active {
+    color: #ef2917;
+    border-bottom: 2px solid #ef2917;
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button-submit {
+    outline: none;
+    height: 30px;
+    width: 100%;
+    margin: 1rem 0;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(0,0,0,0.3)
+}
+
+.unclickable {
+    cursor: not-allowed;
+}
+
+.button-ready {
+    background-color: #ef2917;
+    color: white;
+}
