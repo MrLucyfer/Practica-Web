@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-class">
+        <div class="form-header">
+            <!-- <img src="../img/coffee-logo.png" width="50px"> -->
+            <h2 class="h2-title">Uneix-te</h2>
+            <div class="login-type">
+                <button id="login" class="type-button">Login</button>
+                <button id="register" class="type-button  active">Registra't</button>
+            </div>
+        </div>
+        <div class="data-input">
+            <form id="form" method="post" autocomplete="chrome-off">
+                <label for="nom">Nom</label><br>
+                <input class="form-input" type="text" id="nom"><br>
+    
+                <label for="email">Email</label><br>
+                <input class="form-input" type="email" id="email"><br>
+    
+                <label for="pass">Password</label><br>
+                <input class="form-input" type="password" id="password"><br>
+    
+                <label for="dir">Adreça</label><br>
+                <input class="form-input" type="text" id="dir"><br>
+    
+                <label for="city">Població</label><br>
+                <input class="form-input" type="text" id="city"><br>
+    
+                <label for="zip">Codi Postal</label><br>
+                <input class="form-input"  id="zip" maxlength="5" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"><br>
+                <button disabled class="button-submit unclickable" type="submit">Registrar-me</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
