@@ -10,7 +10,7 @@
     display: grid;
     height: 24rem;
     width: 16rem;
-    margin: 9rem auto;
+    margin: 9rem 2rem;
     border-radius: 8px;
     overflow: hidden;
     border: 2px solid rgb(0,0,0,0.2);
@@ -20,6 +20,12 @@
                          'title'
                          'description'                       
                          'price';
+}
+
+.card-container {
+    display: flex;
+    margin: 0 4rem;
+    justify-content: space-between;
 }
 
 .card-img {
